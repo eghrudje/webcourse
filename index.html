@@ -4,32 +4,43 @@
     <meta chaeset="utf-8"/>
     <title>Anatomy Of A CSS Rule</title>
     <style>
-      p {
-      color: blue;
-      font-size: 20px;
-      width: 200px
+      h2 {
+        color:red;
+        text-align:center;
       }
-      hi {
-      color: red;
-      font-size: 36px;
-      text-align: center;}
+      p, h1 {
+      color: blue;
+      text-align: center;
+      }
+      .highlight {
+      font-weight: bold;
+      font-size: 20px;
+      font-style: italic;
+      background-color: green;
+      .opacity: .6;
+      }
     </style>
   </head>
   <body>
- <h1>Anatomy Of A CSS Rule</h1>
+ <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1 (h2)</h2>
+    <p class="highlight">
+      onDataChange(dataSnapshot1): DataSnapshot { key = -MIzGRjDDQNyk5yrwDZB, value = {date=07.10.2020, image=bnznxnx, author=Christopher lloyd, fullText=gdndndb, title=Lover Of My Soul, fullPassage=bznzmz, monthYearName=October2020, devotional_id=0, text=bxjdjdj, memoryVersePassage=vzhzhz, yearName=2020, bibleInAYear=hsjsjd, memoryVerse=gshdjdn} }
+    onDataChange(devotionalFromServer): Devotional{devotional_id=0, date='07.10.2020'}
+    onDataChange: 07.10.2020
+    </p>
+    <p class="highlight">
+      onDataChange(dataSnapshot1): DataSnapshot { key = -MIzGRjDDQNyk5yrwDZB, value = {date=07.10.2020, image=bnznxnx, author=Christopher lloyd, fullText=gdndndb, title=Lover Of My Soul, fullPassage=bznzmz, monthYearName=October2020, devotional_id=0, text=bxjdjdj, memoryVersePassage=vzhzhz, yearName=2020, bibleInAYear=hsjsjd, memoryVerse=gshdjdn} }
+    onDataChange(devotiona
+    </p>
     
-    <section>
-      <p>
-      Let's link to a Facebook page I created for this course!
-      <a href= "http://www.facebook.com/CourseraWebDev" target="_blank" title="Like our page">
-        Cousera Facebook Page</a>
-      </p>
-      
-      <p>
-        Learning html, css and javascript.....
-      <p/>
-      
-    </section>
+    <h2>Subheading 2 (h2)</h2>
+    <p class="highlight">
+      onDataChange(dataSnapshot1): DataSnapshot { key = -MIzGRjDDQNyk5yrwDZB, value = {date=07.10.2020, image=bnznxnx, author=Christopher lloyd, fullText=gdndndb, title=Lover Of My Soul, fullPassage=bznzmz, monthYearName=October2020, devotional_id=0, text=bxjdjdj, memoryVersePassage=vzhzhz, yearName=2020, bibleInAYear=hsjsjd, memoryVerse=gshdjdn} }
+    onDataChange(devotionalFromServer): Devotional{devotional_id=0, date='07.10.2020'}
+    onDataChange: 07.10.2020
+    </p>
+    
   </body>
 </html>
 
