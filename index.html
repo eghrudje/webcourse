@@ -4,6 +4,23 @@
     <meta chaeset="utf-8"/>
     <title>Anatomy Of A CSS Rule</title>
     <style>
+      header li {
+        list-style: none;
+      }
+      a:link, a:visited {
+        text-decoration: none;
+        color: black;
+        backgroung-color: green;
+        border:1px solid blue;
+        display: block;
+        margin-bottom: 1px;
+        width: 200px;
+        text-align: center;
+      }
+      a:hover, a:active {
+        color: purple;
+        backgroung-color: red;
+      }
       h2 {
         color:red;
         text-align:center;
@@ -41,6 +58,27 @@
     onDataChange: 07.10.2020
     </p>
     
+    
+    <h1>Peudo Class Selector</h1>
+    <header>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJs Course</a></li>
+        <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
+      </ul>
+    </header>
+    
+    <section>
+     <div>DIV 1</div>
+     <div>DIV 2</div>
+     <div>DIV 3</div>
+     <div>DIV 4</div>
+     <div>DIV 5</div>
+     <div>DIV 6</div>
+     <div>DIV 7</div>
+     <div>DIV 8</div>
+    </section>
+   
   </body>
 </html>
 
